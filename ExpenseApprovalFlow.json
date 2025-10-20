@@ -1,0 +1,22 @@
+{
+  "name": "ExpenseApprovalFlow",
+  "trigger": "When a new record is created in the Expenses table",
+  "steps": [
+    {
+      "action": "Get Manager",
+      "connector": "Office365Users"
+    },
+    {
+      "action": "Send Approval",
+      "connector": "Approvals"
+    },
+    {
+      "action": "Update Status",
+      "connector": "Dataverse"
+    },
+    {
+      "action": "Notify Requester",
+      "connector": "Teams"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+
+Thumbs.db
+*.tmp
+~$*.pbix
+.vscode/
+*.zip
