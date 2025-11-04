@@ -1,0 +1,8 @@
+InternalName,DisplayName,Type,Required,Choices
+Title,Request Title,Text,TRUE,
+CustomerName,Customer Name,Text,TRUE,
+Amount,Amount,Currency,TRUE,
+RiskScore,Risk Score,Number,FALSE,
+Status,Status,Choice,TRUE,Submitted|Pending Approval|Approved|Rejected
+RequestedBy,Requested By,Person,TRUE,
+RequestedDate,Requested Date,DateTime,TRUE,
